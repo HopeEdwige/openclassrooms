@@ -1,0 +1,22 @@
+GIT CONFIGURATION
+- Vérifier que les paramètres ont été pris en compte
+git config --list
+
+- Configurer l'identité
+git config --global user.name "ATCHOLE Dodo Edwige"
+
+git config --global user.email atcholeedwige@gmail.com
+
+- Configurer les couleurs
+git config --global color.diff auto 
+
+git config --global color.status auto 
+
+git config --global color.branch auto
+
+- Configurer l'éditeur
+git config --global core.editor visualstudiocode
+
+git config --global merge.tool visualstudiocode
+
+L'outil de merge permet de fusionner deux parties distinctes d'un projet. 
